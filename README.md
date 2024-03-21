@@ -91,7 +91,7 @@ Refer to laravel documentation [Docker Setup](https://laravel.com/docs/10.x/inst
 
 Make sure you have Docker program in your machine. Additionally, if you are using windows you need to install `WSL2` (Windows Subsystem for Linux)
 
-```
+```sh
 # start new shell instances (optional)
 bash
 
@@ -107,6 +107,6 @@ To create a test refer to laravel documentation [Testing](https://laravel.com/do
 
 To run all test
 
-```shell
+```bash
 php artisan test
 ```

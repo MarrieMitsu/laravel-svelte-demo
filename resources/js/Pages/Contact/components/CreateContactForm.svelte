@@ -16,13 +16,6 @@
     function createContact() {
         $form.post("/contact", {
             onSuccess: async () => {
-                // there's a bug inside `onSuccess` callback
-                // for current version of the lib
-                $form.defaults({
-                    name: null,
-                    email: null,
-                });
-
                 dialog.close();
             },
         });

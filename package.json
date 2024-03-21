@@ -16,7 +16,7 @@
         "vite": "^4.5.0"
     },
     "dependencies": {
-        "@westacks/inertia-svelte": "^1.0.26",
+        "@westacks/inertia-svelte": "^1.0.28",
         "lucide-svelte": "^0.359.0"
     }
 }

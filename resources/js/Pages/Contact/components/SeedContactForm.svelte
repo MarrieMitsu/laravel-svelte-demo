@@ -15,12 +15,6 @@
     function seedContact() {
         $form.post("/seed-contact", {
             onSuccess: async () => {
-                // there's a bug inside `onSuccess` callback
-                // for current version of the lib
-                $form.defaults({
-                    amount: null,
-                });
-
                 dialog.close();
             },
         });
