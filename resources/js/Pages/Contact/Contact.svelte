@@ -106,7 +106,7 @@
         </button>
     </div>
     <hr />
-    <h1>Contact List</h1>
+    <h1 class="font-bold">Contact List</h1>
     <div class="flex justify-end gap-2">
         <button
             on:click={() => {

@@ -18,7 +18,7 @@
 
 <div class="prose">
     <div class="flex flex-col justify-center items-center w-screen h-screen">
-        <h1>{title}</h1>
+        <h1 class="font-bold">{title}</h1>
         <p>{description}</p>
     </div>
 </div>

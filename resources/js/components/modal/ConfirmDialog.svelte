@@ -12,7 +12,7 @@
 </script>
 
 <Modal {id} {signature} bind:dialog>
-    <h3 class="font-bold text-lg">{title}</h3>
+    <h3 class="font-bold">{title}</h3>
     <p class="py-4">{message}</p>
     <div class="modal-action">
         <button class="btn btn-neutral" on:click={onConfirm}>

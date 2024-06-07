@@ -17,8 +17,7 @@ export default defineConfig({
     ],
     optimizeDeps: {
         include: [
-            '@inertiajs/inertia',
-            '@inertiajs/inertia-svelte',
+            '@westacks/inertia-svelte',
         ]
     }
 });

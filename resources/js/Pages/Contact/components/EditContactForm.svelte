@@ -60,7 +60,7 @@
             <XIcon />
         </button>
     </form>
-    <h3 class="font-bold text-lg">Edit Contact</h3>
+    <h3 class="font-bold">Edit Contact</h3>
     <form on:submit|preventDefault={updateContact}>
         <TextInput
             id="name"

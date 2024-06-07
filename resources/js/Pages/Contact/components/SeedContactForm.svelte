@@ -40,7 +40,7 @@
             <XIcon />
         </button>
     </form>
-    <h3 class="font-bold text-lg">Seed Contact</h3>
+    <h3 class="font-bold">Seed Contact</h3>
     <form on:submit|preventDefault={seedContact}>
         <TextInput
             id="amount"

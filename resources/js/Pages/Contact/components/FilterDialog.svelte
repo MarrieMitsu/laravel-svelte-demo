@@ -48,7 +48,7 @@
             <XIcon />
         </button>
     </form>
-    <h3 class="font-bold text-lg">Filter Contacts</h3>
+    <h3 class="font-bold">Filter Contacts</h3>
     <TextInput
         id="name"
         label="Name"

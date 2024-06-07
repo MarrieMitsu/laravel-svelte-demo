@@ -9,7 +9,7 @@
     @inertiaHead
 </head>
 
-<body class="prose max-w-none">
+<body>
     @inertia
 </body>
 
